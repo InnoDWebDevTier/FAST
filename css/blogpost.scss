@@ -1,16 +1,19 @@
+@import 'styleguide';
+
 div {
-  font-family: 'Lato', sans-serif;
+  font-family: $font-body;
 }
 
 p {
   line-height: 1.7;
   font-size: 1.0625em;
-  color: #444;
+  color: $offblack;
 }
 
 .title {
   font-weight: 800;
   font-size: 3.125em;
+  font-family: $font-heading;
 }
 
 .subheading {
@@ -21,7 +24,7 @@ p {
 }
 
 .date {
-  color: #777;
+  color: $grey;
   font-size: 1.25em;
   margin: .5em .25em;
 }
@@ -44,7 +47,7 @@ p {
   text-align: center;
   font-size: 0.875em;
   font-weight: 600;
-  color: #666;
+  color: $darkgrey;
   width: 100%;
 }
 
