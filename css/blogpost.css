@@ -3,47 +3,52 @@ div {
 }
 
 p {
-  line-height: 1.7;
-  font-size: 1.0625em;
+  line-height: 2em;
+  font-size: 1em;
   color: #444;
 }
 
 .title {
   font-weight: 800;
-  font-size: 3.125em;
+  font-size: 3em;
 }
 
 .subheading {
   font-weight: 600;
-  font-size: 1.5em;
-  margin-top: .9em;
-  margin-bottom: -0.625em;
+  font-size: 2em;
+  margin-top: 1em;
+  margin-bottom: -.5em;
+  color: #333;
 }
 
 .date {
   color: #777;
-  font-size: 1.25em;
-  margin: .5em .25em;
+  font-size: 1.5em;
+  margin: .5em 0em;
 }
 
 .post {
-  margin: 0.625em 0.3125em;
-  line-height: 150%;
+  margin: 1em auto;
+  line-height: 1.5em;
 }
 
 .center {
-  margin: 0em auto;
+  margin: 0em auto;;
 }
 
-.container {
-  margin-top: 3.125em;
-  margin-bottom: 6.25em;
+#container-top {
+  margin-top: 3em;
+}
+
+#container-bot {
+  margin-bottom: 6em;
 }
 
 .caption {
+  font-family: 'Lato', sans-serif;
   text-align: center;
-  font-size: 0.875em;
-  font-weight: 600;
+  font-size: 1em;
+  font-weight: 500;
   color: #666;
   width: 100%;
 }
@@ -66,5 +71,6 @@ img {
 }
 
 #img3 {
+  zoom: 2;
   width: 100%;
 }
