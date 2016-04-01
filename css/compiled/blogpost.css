@@ -1,30 +1,34 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
-@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic);
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400italic);
+@import url(https://fonts.googleapis.com/css?family=Old+Standard+TT);
 /* use n*$base-unit for all font-sizing, (vertical) spacing */
 div {
-  font-family: "Libre Baskerville", sans-serif; }
+  font-family: "Old Standard TT", sans-serif; }
 
 p {
   line-height: 2em;
   font-size: 1em;
-  color: #454545; }
+  color: #333; }
 
 .title {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
-  font-size: 3em; }
+  font-size: 3em;
+  color: #333; }
 
 .subheading {
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 2em;
   margin-top: 1em;
   margin-bottom: -.5em;
-  color: #333; }
+  color: #454545; }
 
 .date {
   color: #888;
   font-size: 1.5em;
-  margin: .5em 0em; }
+  margin: .5em 0em;
+  font-family: "Libre Baskerville", sans-serif; }
 
 .post {
   margin: 1em auto;
@@ -43,15 +47,17 @@ p {
   font-family: "Libre Baskerville", sans-serif;
   text-align: center;
   font-size: 1em;
-  font-weight: 500;
   color: #666;
-  width: 100%; }
+  width: 100%;
+  margin-top: 1em;
+  margin-bottom: 2em; }
 
 .image {
   display: inline;
   text-align: center; }
 
 img {
+  margin-top: 1.5em;
   display: inline-block; }
 
 #img1 {
