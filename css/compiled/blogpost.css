@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic);
+/* use n*$base-unit for all font-sizing, (vertical) spacing */
+div {
+  font-family: "Libre Baskerville", sans-serif; }
+
+p {
+  line-height: 2em;
+  font-size: 1em;
+  color: #454545; }
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 3em; }
+
+.subheading {
+  font-weight: 600;
+  font-size: 2em;
+  margin-top: 1em;
+  margin-bottom: -.5em;
+  color: #333; }
+
+.date {
+  color: #888;
+  font-size: 1.5em;
+  margin: .5em 0em; }
+
+.post {
+  margin: 1em auto;
+  line-height: 1.5em; }
+
+.center {
+  margin: 0em auto; }
+
+#container-top {
+  margin-top: 3em; }
+
+#container-bot {
+  margin-bottom: 6em; }
+
+.caption {
+  font-family: "Libre Baskerville", sans-serif;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 500;
+  color: #666;
+  width: 100%; }
+
+.image {
+  display: inline;
+  text-align: center; }
+
+img {
+  display: inline-block; }
+
+#img1 {
+  width: calc(100% * 700 / (455 + 700) - 0.1875em); }
+
+#img2 {
+  width: calc(100% * 455 / (455 + 700) - 0.125em); }
+
+#img3 {
+  zoom: 2;
+  width: 100%; }

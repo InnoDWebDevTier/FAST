@@ -7,10 +7,11 @@ div {
 p {
   line-height: 2em;
   font-size: 1em;
-  color: #444;
+  color: $offblack;
 }
 
 .title {
+  font-family: $font-heading;
   font-weight: 800;
   font-size: 3em;
 }
@@ -20,11 +21,11 @@ p {
   font-size: 2em;
   margin-top: 1em;
   margin-bottom: -.5em;
-  color: #333;
+  color: $darkgrey;
 }
 
 .date {
-  color: #777;
+  color: $grey;
   font-size: 1.5em;
   margin: .5em 0em;
 }
@@ -47,7 +48,7 @@ p {
 }
 
 .caption {
-  font-family: 'Lato', sans-serif;
+  font-family: $font-body;
   text-align: center;
   font-size: 1em;
   font-weight: 500;
