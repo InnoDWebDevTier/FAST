@@ -1,20 +1,17 @@
-@import 'styleguide';
-
-div {
-  font-family: $font-body;
-}
+@import 'common';
 
 p {
   line-height: 2em;
   font-size: 1em;
   color: $offblack;
+  font-family: $font-body;
 }
 
 .title {
   font-family: $font-heading;
   font-weight: 800;
   font-size: 3em;
-  color: $offblack
+  color: $offblack;
 }
 
 .subheading {
@@ -38,8 +35,12 @@ p {
   line-height: 1.5em;
 }
 
+.after-caption {
+  margin-top: 0em;
+}
+
 .center {
-  margin: 0em auto;;
+  margin: 0em auto;
 }
 
 #container-top {
@@ -60,25 +61,39 @@ p {
   margin-bottom: 2em;
 }
 
-.image {
-  display: inline;
+.image-container {
   text-align: center;
+  font-size: 0;
+  line-height: 0;
 }
 
-img {
-  margin-top: 1.5em;
-  display: inline-block;
+.image {
+  font-size: 16px;
+  margin-top: 1em;
 }
 
 #img1 {
-  width: calc(100% * 700 / (455 + 700) - 0.1875em);
+  background-image: url("http://www.glamour.com/images/fashion/2015/01/gigi-hadid-beach-sweater-modeling-main.jpg");
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  height: 700px;
+  width: 60%;
 }
 
 #img2 {
-  width: calc(100% * 455 / (455 + 700) - 0.125em);
+  background-image: url("http://healthyceleb.com/wp-content/uploads/2015/08/Gigi-Hadid-bikini-figure.jpg");
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  height: 700px;
+  width: 40%;
 }
 
 #img3 {
-  zoom: 2;
+  background-image: url("http://hdwallpapers.thenewstrack.com/wp-content/uploads/2015/08/Gigi-Hadid-HD-Wallpaper-Free-Download-1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
   width: 100%;
 }
