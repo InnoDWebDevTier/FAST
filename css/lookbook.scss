@@ -53,6 +53,22 @@ h1 {
 	object-fit: cover;
 }
 
+.lightbox-hidden {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: $offblack;
+	top: -100vh;
+	transition: 1s ease;
+	opacity: 0.8;
+    z-index: 1;
+}
+
+.lightbox {
+	transform: translate(0, 100vh);
+	transition: 1s ease;
+}
+
 .nametag {
 	min-width: 0;
 	color: $offwhite;
