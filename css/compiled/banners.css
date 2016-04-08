@@ -30,65 +30,106 @@ html, body {
   -moz-transition: height 0.5s ease-in-out;
   -o-transition: height 0.5s ease-in-out;
   transition: height 0.5s ease-in-out; }
+  .banner .container {
+    width: 100%;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    -o-transition: color .2s ease-out, background .3s ease-in;
+    -ms-transition: color .2s ease-out, background .3s ease-in;
+    -moz-transition: color .2s ease-out, background .3s ease-in;
+    -webkit-transition: color .2s ease-out, background .3s ease-in;
+    overflow: hidden;
+    -webkit-transition: height 0.5s ease-in-out;
+    -moz-transition: height 0.5s ease-in-out;
+    -o-transition: height 0.5s ease-in-out;
+    transition: height 0.5s ease-in-out; }
+    .banner .container:hover {
+      background: rgba(0, 0, 0, 0.2); }
+    .banner .container .header {
+      position: relative;
+      display: block;
+      z-index: 999;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 6%;
+      opacity: 0.75;
+      -o-transition: color .2s ease-out, background .3s ease-in;
+      -ms-transition: color .2s ease-out, background .3s ease-in;
+      -moz-transition: color .2s ease-out, background .3s ease-in;
+      -webkit-transition: color .2s ease-out, background .3s ease-in; }
+      .banner .container .header:hover {
+        opacity: 1.00; }
+    .banner .container .hide {
+      transition: opacity 0.5s linear;
+      opacity: 0; }
+      .banner .container .hide .read-more {
+        text-align: center; }
+        .banner .container .hide .read-more .white-btn {
+          text-align: center;
+          display: inline-block;
+          font-family: "Old Standard TT", sans-serif;
+          font-style: normal;
+          text-decoration: none;
+          box-shadow: none;
+          border: 0.2em solid #000;
+          text-transform: uppercase;
+          background: #fEfDf8;
+          color: #000;
+          letter-spacing: 0.25em;
+          padding: 0.75em 1.25em;
+          font-size: 0.75em; }
+          .banner .container .hide .read-more .white-btn a {
+            font-family: "Old Standard TT", sans-serif;
+            font-style: normal;
+            text-decoration: none;
+            color: #000; }
+          .banner .container .hide .read-more .white-btn:hover {
+            background: #000;
+            color: #fEfDf8; }
+      .banner .container .hide p {
+        text-align: center;
+        font-family: "Libre Baskerville", sans-serif;
+        font-size: 1em;
+        padding-left: 15%;
+        padding-right: 15%;
+        color: #fEfDf8; }
+  .banner.expand {
+    height: 28em;
+    -webkit-transition: height 0.5s ease-in-out;
+    -moz-transition: height 0.5s ease-in-out;
+    -o-transition: height 0.5s ease-in-out;
+    transition: height 0.5s ease-in-out; }
+    .banner.expand .excerpt {
+      opacity: 1; }
 
 .one {
   background: url("/img/one.jpg");
-  background-size: cover; }
+  background-size: cover;
+  background-position: center; }
 
 .two {
   background-image: url("/img/two.jpg");
-  background-size: cover; }
+  background-size: cover;
+  background-position: center; }
 
 .three {
   background-image: url("/img/three.jpg");
-  background-size: cover; }
-
-.container {
-  width: 100%;
-  height: 20.5em;
-  margin-right: auto;
-  margin-left: auto;
-  position: relative;
-  background: rgba(0, 0, 0, 0.5);
-  -o-transition: color .2s ease-out, background .3s ease-in;
-  -ms-transition: color .2s ease-out, background .3s ease-in;
-  -moz-transition: color .2s ease-out, background .3s ease-in;
-  -webkit-transition: color .2s ease-out, background .3s ease-in;
-  overflow: hidden;
-  -webkit-transition: height 0.5s ease-in-out;
-  -moz-transition: height 0.5s ease-in-out;
-  -o-transition: height 0.5s ease-in-out;
-  transition: height 0.5s ease-in-out; }
-
-.container:hover {
-  background: rgba(0, 0, 0, 0.2); }
-
-.header {
-  position: relative;
-  display: block;
-  z-index: 999;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 6%;
-  opacity: 0.75;
-  -o-transition: color .2s ease-out, background .3s ease-in;
-  -ms-transition: color .2s ease-out, background .3s ease-in;
-  -moz-transition: color .2s ease-out, background .3s ease-in;
-  -webkit-transition: color .2s ease-out, background .3s ease-in; }
-
-.header:hover {
-  opacity: 1.00; }
+  background-size: cover;
+  background-position: center; }
 
 .date {
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 0.25em;
   font-size: 1em;
-  color: #fEfDf8 !important; }
+  color: #fEfDf8; }
 
 .date span {
-  border-bottom: 0.25em solid #fff;
+  border-bottom: 0.25em solid #fEfDf8;
   padding: 0.5em 0; }
 
 .heading {
@@ -98,11 +139,11 @@ html, body {
   font-size: 3em;
   padding: 0.5em;
   text-transform: uppercase;
-  color: #fff !important;
+  color: #fEfDf8;
   padding-bottom: 0.75em; }
 
 .heading a {
-  color: #fff !important;
+  color: #fEfDf8;
   font-style: normal;
   text-decoration: none; }
 
@@ -120,53 +161,3 @@ html, body {
   -ms-transform: rotate(-180deg);
   -o-transform: rotate(-180deg);
   transition: 0.2s ease all; }
-
-.expand {
-  height: 28em !important;
-  -webkit-transition: height 0.5s ease-in-out;
-  -moz-transition: height 0.5s ease-in-out;
-  -o-transition: height 0.5s ease-in-out;
-  transition: height 0.5s ease-in-out; }
-
-.excerpt {
-  display: inherit !important;
-  visibility: visible;
-  transition: visibility 0s, opacity 0.5s linear; }
-  .excerpt p {
-    text-align: center;
-    font-family: "Libre Baskerville", sans-serif;
-    font-size: 1em;
-    padding-left: 15%;
-    padding-right: 15%;
-    color: #fff; }
-
-.hide {
-  display: none; }
-
-.read-more {
-  text-align: center; }
-
-.white-btn {
-  text-align: center;
-  display: inline-block;
-  font-family: "Old Standard TT", sans-serif;
-  font-style: normal;
-  text-decoration: none;
-  box-shadow: none;
-  border: 0.2em solid #000;
-  text-transform: uppercase;
-  background: #FFF;
-  color: #000;
-  letter-spacing: 0.25em;
-  padding: 0.75em 1.25em;
-  font-size: 0.75em; }
-
-.white-btn a {
-  font-family: "Old Standard TT", sans-serif;
-  font-style: normal;
-  text-decoration: none;
-  color: #000; }
-
-.white-btn:hover {
-  background: #000;
-  color: #FFF; }
