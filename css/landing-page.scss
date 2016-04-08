@@ -1,32 +1,17 @@
-.home-menu {
-    padding: 0.4em;
-    text-align: center;
-}
-.home-menu {
-    background: black;
-}
+@import 'common';
 
-.home-menu .pure-menu-item {
-    font-size: 12px;
-    letter-spacing: 2px;
-}
-
-.home-menu a {
-    color: white;
-}
-.home-menu li a:hover {
-    background: black;
-    color: gray;
+body {
+    overflow: hidden;
 }
 
 .top-img {
     position: absolute;
     margin: auto;
-    left:0;
+    left: 0;
     right: 0;
     top: 0;
     bottom: 0;
-    width: 600px;
+    width: 30em;
     height: auto;
     z-index: 5;
 }
@@ -37,7 +22,7 @@
     left: 50%;
     min-width: 100%;
     min-height: 100%;
-    z-index: -100;
+    z-index: 1;
     transform: translateX(-50%) translateY(-50%);
     background-size: cover;
 }
@@ -46,6 +31,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, .6);
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 2;
 }
 
