@@ -1,8 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+$font-nav : 'Raleway', sans-serif;
+
 .home-menu {
     padding: 0.5em;
     text-align: center;
-}
-.home-menu {
     background: $trueblack;
 }
 
@@ -10,7 +12,7 @@
     .pure-menu-item {
         font-size: 0.75em;
         letter-spacing: 0.25em;
-        font-family: Raleway;
+        font-family: $font-nav;
     }
 }
 
@@ -19,6 +21,7 @@
         color: $offwhite;
     }
 }
+
 .home-menu {
     li {
         a:hover {
