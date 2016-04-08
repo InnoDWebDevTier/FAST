@@ -84,12 +84,14 @@ html, body{
 }
 
 .heading {
-  font-family: $font-heading;
-  font-size: 2.75em;
+  font-family: $font-body;
+  letter-spacing: 1px;
+  transform:scale(1,0.85);
+  font-size: 3em;
   padding: 0.5em;
   text-transform: uppercase; 
   color: #fff !important;
-  padding-bottom: 1em;
+  padding-bottom: 0.75em;
 }
 
 .heading a {
@@ -100,7 +102,7 @@ html, body{
 
 .click-area {
   width: 100%;
-  height: 5em;
+  height: 4em;
 }
 
 .arrow {
@@ -154,12 +156,12 @@ html, body{
   font-style: normal;
   text-decoration: none;
   box-shadow: none;
-  border: 0.25em solid #000;
+  border: 0.2em solid #000;
   text-transform: uppercase;
   background: #FFF;
   color: #000;
   letter-spacing: 0.25em;
-  padding: 0.75em 2em;
+  padding: 0.75em 1.25em;
   font-size: 0.75em;
 }
 
