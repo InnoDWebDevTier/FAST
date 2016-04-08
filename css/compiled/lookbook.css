@@ -2,6 +2,24 @@
 @import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400italic);
 @import url(https://fonts.googleapis.com/css?family=Old+Standard+TT);
 /* use n*$base-unit for all font-sizing, (vertical) spacing */
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+.home-menu {
+  padding: 0.5em;
+  text-align: center;
+  background: #000; }
+
+.home-menu .pure-menu-item {
+  font-size: 0.75em;
+  letter-spacing: 0.25em;
+  font-family: "Raleway", sans-serif; }
+
+.home-menu a {
+  color: #fEfefd; }
+
+.home-menu li a:hover {
+  background: #000;
+  color: #ddd; }
+
 /* structural stuff */
 body, html {
   margin: 0;
@@ -18,6 +36,11 @@ body, html {
 
 p {
   line-height: 1.5; }
+
+.content-wrapper {
+  width: 100%;
+  height: 100%;
+  padding-top: 2.5em; }
 
 body, html {
   background-color: #fEfefd;
