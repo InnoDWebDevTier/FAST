@@ -4,36 +4,6 @@ body {
     overflow: hidden;
 }
 
-.home-menu {
-    padding: 0.5em;
-    text-align: center;
-}
-.home-menu {
-    background: $trueblack;
-}
-
-.home-menu {
-    .pure-menu-item {
-        font-size: 0.75em;
-        letter-spacing: 0.25em;
-        font-family: Raleway;
-    }
-}
-
-.home-menu {
-    a {
-        color: $offwhite;
-    }
-}
-.home-menu {
-    li {
-        a:hover {
-            background: $trueblack;
-            color: $lightgrey;
-        }
-    }
-}
-
 .top-img {
     position: absolute;
     margin: auto;
