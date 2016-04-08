@@ -15,17 +15,17 @@ html, body{
 }
 
 .one {
-  background: url("../img/one.jpg");
+  background: url("/img/one.jpg");
   background-size: cover;
 }
 
 .two {
-  background-image: url("../img/two.jpg");
+  background-image: url("/img/two.jpg");
   background-size: cover
 }
 
 .three {
-  background-image: url("../img/three.jpg");
+  background-image: url("/img/three.jpg");
   background-size: cover
 }
 
@@ -72,10 +72,10 @@ html, body{
 
 .date {
   text-transform: uppercase;
-  font-family: $font-header;
+  font-family: $font-heading;
   letter-spacing: 0.25em;
   font-size: 1em;
-  color: $offwhite;
+  color: $offwhite !important;
 }
 
 .date span{
@@ -84,7 +84,7 @@ html, body{
 }
 
 .heading {
-  font-family: $font-header;
+  font-family: $font-heading;
   font-size: 2.75em;
   padding: 0.5em;
   text-transform: uppercase; 
@@ -92,7 +92,7 @@ html, body{
   padding-bottom: 1em;
 }
 
-.heading a{
+.heading a {
   color: #fff !important;
   font-style: normal;
   text-decoration: none;
@@ -159,7 +159,7 @@ html, body{
   background: #FFF;
   color: #000;
   letter-spacing: 0.25em;
-  padding: 1em 2em;
+  padding: 0.75em 2em;
   font-size: 0.75em;
 }
 
