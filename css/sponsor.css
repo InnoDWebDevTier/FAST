@@ -40,7 +40,7 @@
 	position: relative;
 }
 
-/* TODO: dont steal other ppls CSS */
+/* TODO: uses landing page css */
 
 h1, h2, h3, h4, h5, h6 {
  font-family: 'Raleway';
@@ -79,6 +79,7 @@ body{
 }
 .sponsor-p{
 	padding-right:25px;
+	line-height:1.5em;
 }
 .row{
 	margin-bottom: 35px;
