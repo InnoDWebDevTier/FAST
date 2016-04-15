@@ -1,4 +1,5 @@
 @import 'styleguide';
+@import 'navbar';
 
 /* structural stuff */
 body, html {
@@ -10,7 +11,7 @@ body, html {
   font-family: $font-body;
   background-color: $offwhite;
 
-  font-size: $base-unit;
+  font-size: 16px;
 }
 
 /* Adjustments to tag defaults */
@@ -21,3 +22,10 @@ body, html {
 p {
   line-height: 1.5;
 }
+
+.content-wrapper {
+	width: 100%;
+	height: 100%;
+	padding-top: 2.5em;
+}
+
