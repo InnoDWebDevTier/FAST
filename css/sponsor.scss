@@ -1,0 +1,58 @@
+@import 'styleguide';
+@import 'common';
+.centered{
+	text-align: center;
+}
+#sponsor-title{
+	text-align: center;
+	margin-bottom:1em;
+}
+#main-content{
+	padding-top: 1em; 
+	padding-bottom:1em;
+}
+.r-img{
+	width:100%;
+}
+#sponsor-img{
+	margin-top:2em;
+}
+#sponsor-form>.form-control{
+	margin-bottom:10px;
+	border-radius:0px;
+}
+#sponsor-form>.btn{
+	border-radius:0px;
+}
+.logo-img{
+	height:45px;
+	float:left;
+}
+.sponsor-p{
+	padding-right:1em;
+	line-height:1.5em;
+}
+.row{
+	margin-bottom: 1em;
+}
+.sponsor-div{
+	margin-top:1em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+#sponsor-form>input{
+	margin-bottom:1em;
+	width:100%;
+}
+#sponsor-form>textarea{
+	margin-bottom:1em;
+	width:100%;
+}
+#sponsor-form{
+	padding:15px;
+	padding-top:0px;
+}
+#sponsor-form-div{
+	background-color:rgba(35, 42, 53, 0.08);
+	padding:15px;
+}
