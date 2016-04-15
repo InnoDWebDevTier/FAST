@@ -37,7 +37,7 @@ html, body{
     .header {
       position: relative;
       display: block;
-      z-index: 999;
+      z-index: 888;
       text-align: center;
       margin-left: auto;
       margin-right: auto;
@@ -97,6 +97,7 @@ html, body{
   }
 
   &.expand {
+    background-position: center;
     height: 28em;
     -webkit-transition: height 0.5s ease-in-out;
     -moz-transition: height 0.5s ease-in-out;
@@ -112,19 +113,16 @@ html, body{
 .one {
   background: url("/img/one.jpg");
   background-size: cover;
-  background-position: center;
 }
 
 .two {
   background-image: url("/img/two.jpg");
   background-size: cover;
-  background-position: center;
 }
 
 .three {
   background-image: url("/img/three.jpg");
   background-size: cover;
-  background-position: center;
 }
 
 
@@ -176,3 +174,6 @@ html, body{
   transition: 0.2s ease all;
 }
 
+.home-menu {
+  z-index: 999;
+}

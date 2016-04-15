@@ -2,6 +2,24 @@
 @import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400italic);
 @import url(https://fonts.googleapis.com/css?family=Old+Standard+TT);
 /* use n*$base-unit for all font-sizing, (vertical) spacing */
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+.home-menu {
+  padding: 0.5em;
+  text-align: center;
+  background: #000; }
+
+.home-menu .pure-menu-item {
+  font-size: 0.75em;
+  letter-spacing: 0.25em;
+  font-family: "Raleway", sans-serif; }
+
+.home-menu a {
+  color: #fEfefd; }
+
+.home-menu li a:hover {
+  background: #000;
+  color: #ddd; }
+
 /* structural stuff */
 body, html {
   margin: 0;
@@ -9,7 +27,7 @@ body, html {
   width: 100%;
   color: #333;
   font-family: "Old Standard TT", sans-serif;
-  background-color: #fEfDf8;
+  background-color: #fEfefd;
   font-size: 16px; }
 
 /* Adjustments to tag defaults */
@@ -18,6 +36,11 @@ body, html {
 
 p {
   line-height: 1.5; }
+
+.content-wrapper {
+  width: 100%;
+  height: 100%;
+  padding-top: 2.5em; }
 
 html, body {
   margin: auto; }
@@ -51,7 +74,7 @@ html, body {
     .banner .container .header {
       position: relative;
       display: block;
-      z-index: 999;
+      z-index: 888;
       text-align: center;
       margin-left: auto;
       margin-right: auto;
@@ -77,7 +100,7 @@ html, body {
           box-shadow: none;
           border: 0.2em solid #000;
           text-transform: uppercase;
-          background: #fEfDf8;
+          background: #fEfefd;
           color: #000;
           letter-spacing: 0.25em;
           padding: 0.75em 1.25em;
@@ -89,15 +112,16 @@ html, body {
             color: #000; }
           .banner .container .hide .read-more .white-btn:hover {
             background: #000;
-            color: #fEfDf8; }
+            color: #fEfefd; }
       .banner .container .hide p {
         text-align: center;
         font-family: "Libre Baskerville", sans-serif;
         font-size: 1em;
         padding-left: 15%;
         padding-right: 15%;
-        color: #fEfDf8; }
+        color: #fEfefd; }
   .banner.expand {
+    background-position: center;
     height: 28em;
     -webkit-transition: height 0.5s ease-in-out;
     -moz-transition: height 0.5s ease-in-out;
@@ -108,28 +132,25 @@ html, body {
 
 .one {
   background: url("/img/one.jpg");
-  background-size: cover;
-  background-position: center; }
+  background-size: cover; }
 
 .two {
   background-image: url("/img/two.jpg");
-  background-size: cover;
-  background-position: center; }
+  background-size: cover; }
 
 .three {
   background-image: url("/img/three.jpg");
-  background-size: cover;
-  background-position: center; }
+  background-size: cover; }
 
 .date {
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 0.25em;
   font-size: 1em;
-  color: #fEfDf8; }
+  color: #fEfefd; }
 
 .date span {
-  border-bottom: 0.25em solid #fEfDf8;
+  border-bottom: 0.25em solid #fEfefd;
   padding: 0.5em 0; }
 
 .heading {
@@ -139,11 +160,11 @@ html, body {
   font-size: 3em;
   padding: 0.5em;
   text-transform: uppercase;
-  color: #fEfDf8;
+  color: #fEfefd;
   padding-bottom: 0.75em; }
 
 .heading a {
-  color: #fEfDf8;
+  color: #fEfefd;
   font-style: normal;
   text-decoration: none; }
 
@@ -161,3 +182,6 @@ html, body {
   -ms-transform: rotate(-180deg);
   -o-transform: rotate(-180deg);
   transition: 0.2s ease all; }
+
+.home-menu {
+  z-index: 999; }
